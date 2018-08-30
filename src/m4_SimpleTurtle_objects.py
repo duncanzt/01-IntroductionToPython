@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Zachary Duncan.
 """
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -92,6 +92,8 @@ boris = rg.SimpleTurtle()
 boris.forward(100)
 boris.left(90)
 boris.forward(200)
+boris.right(90)
+boris.forward(200)
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
@@ -99,7 +101,7 @@ boris.forward(200)
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
+natasha.pen = rg.Pen('blue', 30)  # Second argument is the Pen's thickness
 natasha.speed = 10  # Faster
 
 natasha.backward(50)
@@ -111,7 +113,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -147,7 +149,13 @@ natasha.go_to(rg.Point(-100, 200))
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
 #
 #   As always, test by running the module.
-#
+zachary = rg.SimpleTurtle('turtle')
+zachary.pen = rg.Pen('purple', 10)
+zachary.speed = 10
+
+zachary.forward(50)
+zachary.left(90)
+zachary.backward(400)
 ###############################################################################
 
 ###############################################################################
