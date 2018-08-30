@@ -36,3 +36,19 @@ zachary.pen = rg.Pen('purple', 15)
 zachary.speed = 20
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.close_on_mouse_click()
+
+
