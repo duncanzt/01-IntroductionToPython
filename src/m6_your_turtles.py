@@ -32,10 +32,22 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 
 zachary = rg.SimpleTurtle('turtle')
-zachary.pen = rg.Pen('purple', 15)
+zachary.pen = rg.Pen('purple', 3)
 zachary.speed = 20
 
+size = 100
 
+for x in range(20):
+    zachary.draw_circle(size)
+
+    zachary.pen_up()
+    zachary.right(10)
+    zachary.forward(10)
+    zachary.left(10)
+
+
+    zachary.pen_down()
+    size = size - 12
 
 
 
