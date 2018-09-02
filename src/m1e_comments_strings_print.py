@@ -19,10 +19,12 @@
 #   and run the code, feel free to play with it briefly, then move on to m2.
 #
 ###############################################################################
-
+import math
 print('Hello, World')
 print('hi there')
 print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
+print(math.pow(3, 1/3))
+
